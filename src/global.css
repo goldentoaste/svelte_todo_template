@@ -1,0 +1,22 @@
+
+
+body {
+    /* declare css variables for common constant values */
+    --bg0: #fbf1c7;
+    --bg1: #f4e8be;
+
+    --fg0 : #ddccab;
+    --focus: #654735;
+
+    --green: #BFD39D;
+    --red: #FFA59A;
+
+    padding: 8rem;
+    
+    font-family: "Inter", sans-serif;
+    background-color: var(--bg0);
+}
+
+h1{
+    font-weight: 500;
+}
