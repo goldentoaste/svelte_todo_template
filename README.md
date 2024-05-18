@@ -1,38 +1,7 @@
-# create-svelte
+# Template for todo app in SvelteKit.
+This repo contains templates and css for a simple todo app.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Get started 
+After cloning the repo, install all the dependencies with `npm install`. Then run `npm run dev` to start the dev server, yuo should be now be able to see the webpage locally, most likely at localhost:5173.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+There are a few routes and components already in the project, they are be left as is. Most of the edits needed are in `TodoList.svelte` and `TodoListItem.svelte`.
